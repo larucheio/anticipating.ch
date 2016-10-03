@@ -7,14 +7,48 @@
     <title>We Are Anticipating.</title>
 
     <style media="screen">
+
+      html {
+        font-size: 20px;
+      }
+      html:root {
+        --grid-color-1: rgba(0, 0, 0, 0.1);
+        --grid-color-2: rgba(0, 0, 0, 0.2);
+      }
       body {
         font-family: "Avenir Next", "Avenir", sans-serif;
+        margin: 0 auto;
+        max-width: 50rem;
+        padding: 1rem;
+
+        background: repeating-linear-gradient(
+            transparent 0px,
+            transparent 10px,
+            var(--grid-color-2) 10px,
+            var(--grid-color-2) 11px,
+            transparent 11px,
+            transparent 20px
+          ), repeating-linear-gradient(
+            transparent 0px,
+            transparent 19px,
+            var(--grid-color-1) 19px,
+            var(--grid-color-1) 20px
+          ), repeating-linear-gradient(
+            90deg,
+            transparent 0px,
+            transparent 19px,
+            var(--grid-color-1) 19px,
+            var(--grid-color-1) 20px
+          );
+        background-size: 20px 20px;
       }
 
       .title {
         font-style: italic;
         font-weight: bold;
-        font-size: 50rem;
+        font-size: 1.5rem;
+        margin-top: 3rem;
+        line-height: 2rem;
       }
 
       .contact {
