@@ -1,0 +1,10 @@
+/* TEAM */
+	Boss: Julien Grünhagel
+	Contact: julien [at] anticipating.ch
+  Personal: https://rspt.io
+	Twitter: @rspt8201
+	From: Geneva, Switzerland
+
+/* SITE */
+	Language: French
+	Doctype: HTML5
