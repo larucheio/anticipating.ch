@@ -98,3 +98,5 @@ a {
 .mx { max-width: var(--mx) }
 .u-bold { font-weight: bold }
 .u-italic { font-style: italic }
+
+.c-social { font-size: .75rem }
